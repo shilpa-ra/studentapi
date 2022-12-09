@@ -15,7 +15,7 @@ agent { label 'git'}
 
        stage('build image') {
         steps {
-            sh 'sh docker sh'
+            sh 'sh docker.sh'
                     }
          }
         
